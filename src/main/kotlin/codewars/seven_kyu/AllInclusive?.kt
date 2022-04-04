@@ -1,4 +1,4 @@
-package codewars.sevenkyu
+package codewars.seven_kyu
 
 fun containAllRots(s: String, arr: ArrayList<String>): Boolean {
     val rotations = stringRotations(s)

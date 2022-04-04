@@ -1,4 +1,4 @@
-package codewars.eightkyu
+package codewars.eight_kyu
 
 fun main() {
     subtractSum(100)

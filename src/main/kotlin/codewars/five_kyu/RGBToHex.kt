@@ -1,4 +1,4 @@
-package codewars.fivekyu
+package codewars.five_kyu
 
 import kotlin.math.roundToInt
 

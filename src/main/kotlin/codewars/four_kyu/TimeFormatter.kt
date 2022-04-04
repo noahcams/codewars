@@ -1,4 +1,4 @@
-package codewars.fourkyu
+package codewars.four_kyu
 
 object TimeFormatter {
 
