@@ -14,7 +14,6 @@ object TimeFormatter {
                 readableUnit(mins, "minute"),
                 readableUnit(secs, "second")
         )
-        // create function for converting timeString to add the right commas and ands
         return prettify(timeList.filter { it.isNotEmpty() })
     }
 
