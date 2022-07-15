@@ -1,2 +1,2 @@
-def greedy_knapsack():
+def knapsack(n, w):
     pass
