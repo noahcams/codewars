@@ -1,5 +1,7 @@
 package codewars.six_kyu
 
+// TODO: Finish kata
+
 /*
 * Let us begin with an example:
 
@@ -74,5 +76,6 @@ object BuyCar {
 }
 
 fun main() {
+    // expected output: [6, 766]
     print(BuyCar.nbMonths(2000, 8000, 1000, 1.5))
 }
