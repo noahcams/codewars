@@ -58,11 +58,14 @@ object BuyCar {
         var percentLoss = percentLossByMonth * 0.01
         var savings = savingPerMonth
         while (savings + oldCarPrice < newCarPrice) {
-            println(percentLoss)
             if (numMonths % 2 == 0) percentLoss += 0.005
             newCarPrice -= newCarPrice * percentLoss
             oldCarPrice -= oldCarPrice * percentLoss
             savings += savingPerMonth
+            println(savings)
+            println(oldCarPrice)
+            println(newCarPrice)
+            println((savings + oldCarPrice - newCarPrice).toInt())
             numMonths++
         }
         var savingsLeft = (savings + oldCarPrice - newCarPrice).toInt()
@@ -71,5 +74,5 @@ object BuyCar {
 }
 
 fun main() {
-    BuyCar.nbMonths(2000, 8000, 1000, 1.5)
+    print(BuyCar.nbMonths(2000, 8000, 1000, 1.5))
 }
