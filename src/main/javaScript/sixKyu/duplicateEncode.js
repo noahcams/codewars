@@ -16,10 +16,12 @@ function duplicateEncode(word) {
 		.join('');
 }
 
-// better solution from someone else
-const duplicateEncode = (word) =>
+// more clever solution from someone else
+const duplicateEncode2 = (word) =>
 	word
 		.toLowerCase()
 		.split('')
-		.map((a, i, w) => (w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'))
+		.map((a, _, w) => (w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'))
 		.join('');
+
+console.log(duplicateEncode('every'));

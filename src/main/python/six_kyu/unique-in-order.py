@@ -2,7 +2,7 @@
 # Avoiding out of bounds for first item: Use an if check
 
 def naive_unique_in_order(iterable):
-    '''Creates new list with all repeating adjacent characters stably removed'''
+    """Creates new list with all repeating adjacent characters stably removed"""
     # Naive solution
     # if len(iterable) == 1:
     #     return iterable
